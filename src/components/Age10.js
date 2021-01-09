@@ -10,7 +10,6 @@ import walk_dog from '../resources/walk_dog.jpg';
 
 import Calculator from './Calculator';
 
-
 const Age10 = () => {
     return (
        <div className='App'>
@@ -27,6 +26,7 @@ const Age10 = () => {
                     choiceTitle1="Mow Lawns" 
                     choiceDesc1="You mow your two neighbour's lawns every two weeks 
                     at a rate of $30 per session."
+                    choice1="mow()"
                     choiceImage2={lemonade_stand}
                     choiceTitle2="Lemonade Stand" 
                     choiceDesc2="Run a lemonade stand with your friend every weekend,
@@ -40,5 +40,11 @@ const Age10 = () => {
        </div>
     );
 }
- 
+
+function mow() {
+    document.getElementById("choices").style.display = "none";
+  }
+function myFunction() {
+document.getElementById("demo").style.color = "red";
+}
 export default Age10;
