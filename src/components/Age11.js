@@ -1,6 +1,5 @@
 import React from 'react';
 import ControlledCarousel from './Carousel';
-import Carousel from './Carousel';
    
 const Age11 = () => {
     return (
