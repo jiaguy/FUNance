@@ -7,7 +7,6 @@ import lawn_mow from '../resources/lawn_mow.jpg';
 import lemonade_stand from '../resources/lemonade_stand.jpg';
 import walk_dog from '../resources/walk_dog.jpg';
 
-=======
 import Calculator from './Calculator';
 
 
@@ -21,6 +20,7 @@ const Age10 = () => {
                 JobNm="Placeholder"
                 CurrBalance="Placeholder"/>
             </div>
+            <p>Hello there! You are now old enough to do chores to earn money! Pick a job option to get started!</p>
             <div className ='Card-deck-div'>
                 <Choices
                     choiceImage1={lawn_mow}
