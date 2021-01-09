@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Choices from './Choices';
-<<<<<<< HEAD
+import Stats from './Stats';
+
 
 import lawn_mow from '../resources/lawn_mow.jpg';
 import lemonade_stand from '../resources/lemonade_stand.jpg';
@@ -8,12 +9,18 @@ import walk_dog from '../resources/walk_dog.jpg';
 
 =======
 import Calculator from './Calculator';
->>>>>>> dcd8b3b (added a calculator component, implemented in age10)
+
 
 const Age10 = () => {
     return (
        <div className='App'>
             <h1>Age 10</h1>
+            <div className='Stat-box'>
+                <Stats
+                AgeNum="10"
+                JobNm="Placeholder"
+                CurrBalance="Placeholder"/>
+            </div>
             <div className ='Card-deck-div'>
                 <Choices
                     choiceImage1={lawn_mow}

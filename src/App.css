@@ -42,6 +42,12 @@
 }
 
 
+.Stat-box {
+  margin-left: 50px;
+  width: 10%;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

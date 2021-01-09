@@ -1,5 +1,6 @@
 import React from 'react';
 import ControlledCarousel from './Carousel';
+import Stats from './Stats';
 
 import lawn_mow from '../resources/lawn_mow.jpg';
 import lemonade_stand from '../resources/lemonade_stand.jpg';
@@ -10,6 +11,12 @@ const Age11 = () => {
     return (
        <div>
             <h1>Age 11</h1>
+            <div className='Stat-box'>
+                <Stats
+                AgeNum="11"
+                JobNm="Placeholder"
+                CurrBalance="Placeholder"/>
+            </div>
             <ControlledCarousel
             slideImage1={lawn_mow}
             slideTitle1="Lesson 1: Saving money"
