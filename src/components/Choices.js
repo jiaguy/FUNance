@@ -13,7 +13,7 @@ function Choices(props) {
         return (
             <CardDeck className="Card-deck">
             <Card id="Card">
-                <Card.Img variant="top" src={lawn_mow} width="40%" height="30%" object-fit="cover"/>
+                <Card.Img variant="top" src={props.choiceImage1} width="40%" height="30%" object-fit="cover"/>
                 <Card.Body>
                 <Card.Title>{props.choiceTitle1}</Card.Title>
                 <Card.Text>
@@ -23,7 +23,7 @@ function Choices(props) {
                 </Card.Body>
             </Card>
             <Card id="Card">
-                <Card.Img variant="top" src={lemonade_stand} width="40%" height="30%" object-fit="cover"/>
+                <Card.Img variant="top" src={props.choiceImage2} width="40%" height="30%" object-fit="cover"/>
                 <Card.Body>
                 <Card.Title>{props.choiceTitle2}</Card.Title>
                 <Card.Text>
@@ -33,7 +33,7 @@ function Choices(props) {
                 </Card.Body>
             </Card>
             <Card id="Card">
-                <Card.Img variant="top" src={walk_dog} width="40%" height="30%" object-fit="cover"/>
+                <Card.Img variant="top" src={props.choiceImage3} width="40%" height="30%" object-fit="cover"/>
                 <Card.Body>
                 <Card.Title>{props.choiceTitle3}</Card.Title>
                 <Card.Text>

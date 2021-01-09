@@ -1,13 +1,9 @@
 import React, { useState } from 'react';
 
-import lawn_mow from '../resources/lawn_mow.jpg';
-import lemonade_stand from '../resources/lemonade_stand.jpg';
-import walk_dog from '../resources/walk_dog.jpg';
-
 // import bootstrap components here
 import Carousel from 'react-bootstrap/Carousel';
 
-function ControlledCarousel() {
+function ControlledCarousel(props) {
     const [index, setIndex] = useState(0);
   
     const handleSelect = (selectedIndex, e) => {
@@ -19,38 +15,36 @@ function ControlledCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={lawn_mow}
+            src={props.slideImage1}
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>{props.slideTitle1}</h3>
+            <p>{props.slideDesc1}</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={lemonade_stand}
+            src={props.slideImage2}
             alt="Second slide"
           />
   
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>{props.slideTitle2}</h3>
+            <p>{props.slideDesc2}</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={walk_dog}
+            src={props.slideImage3}
             alt="Third slide"
           />
   
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <h3>{props.slideTitle3}</h3>
+            <p>{props.slideDesc3}</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
