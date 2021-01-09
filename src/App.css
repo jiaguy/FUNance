@@ -73,17 +73,12 @@
 }
 
 .calculator-body {
-<<<<<<< HEAD
   width: 200px;
-=======
-  width: 250px;
->>>>>>> 9c8f1aa4b4beaf507872a1d1e93bb3da46858f4e
   max-width: 400px;
   margin: auto;
   border-radius: 2px;
 }
 
-<<<<<<< HEAD
 .button2 {
   background-color: #FCEADE;
   width:50px;
@@ -95,19 +90,3 @@
   background-color: #FF8A5B;
   color: white;
 }
-=======
-.button {
-  display: block;
-  background-color: #FCEADE;
-  border-radius: 10px;
-}
-
-button {
-  width: 25%;
-  height: 50px;
-  font-size: 25px;
-  color: #FF8A5B;
-  background-color: #fff;
-  border-radius: 2px;
-}
->>>>>>> 9c8f1aa4b4beaf507872a1d1e93bb3da46858f4e
