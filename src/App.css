@@ -30,12 +30,17 @@
 
 
 .Card-deck {
-  align-items: center;
-  justify-content: center;
+  width: 50%;
   margin-right: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
 }
+
+.Card-deck-div {
+  display: flex;
+  justify-content: center;
+}
+
 
 @keyframes App-logo-spin {
   from {
