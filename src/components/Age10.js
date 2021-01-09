@@ -7,7 +7,7 @@ import lawn_mow from '../resources/lawn_mow.jpg';
 import lemonade_stand from '../resources/lemonade_stand.jpg';
 import walk_dog from '../resources/walk_dog.jpg';
 
-=======
+
 import Calculator from './Calculator';
 
 
