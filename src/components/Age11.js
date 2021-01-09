@@ -1,10 +1,12 @@
 import React from 'react';
+import ControlledCarousel from './Carousel';
+import Carousel from './Carousel';
    
 const Age11 = () => {
     return (
        <div>
-          <h1>Age 11</h1>
-
+            <h1>Age 11</h1>
+            <ControlledCarousel />
        </div>
     );
 }
