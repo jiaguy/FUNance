@@ -12,23 +12,29 @@ function Budget() {
 
         <div className="Budget" style={{textAlign: 'center', width: '100%', overflow: 'hidden'}}>
             <div style={{ width: '40%', float: 'left' }}>
-                <br></br>
-                <h1>My Monthly Earnings Calculator</h1>
+                <<br></br>
+            <h1>My Monthly Earnings Calculator</h1>
 
-                <Form>
-                    <Form.Group controlId="formBasicSalary">
-                        <Form.Label>Enter your hourly salary:</Form.Label>
-                        <Form.Control type="salary" placeholder="Enter salary" />
-                    </Form.Group>
+            <Form>
+                <Form.Group controlId="formBasicSalary">
+                    <Form.Label>Enter your hourly salary:</Form.Label>
+                    <Form.Control type="salary" placeholder="Amount of money" />
+                </Form.Group>
 
-                    <Form.Group controlId="formBasicHours">
-                        <Form.Label>Password</Form.Label>
-                        <Form.Control type="hours" placeholder="Enter hours" />
-                    </Form.Group>
-                    <Button variant="primary" type="submit" onClick={onSubmit}>
-                        Submit
+                <Form.Group controlId="formBasicHours">
+                    <Form.Label>Enter the number of hours worked each week:</Form.Label>
+                    <Form.Control type="hours" placeholder="Number of hours" />
+                </Form.Group>
+
+                <Form.Group controlId="formBasicBudget">
+                    <Form.Label>Enter your monthly budget:</Form.Label>
+                    <Form.Control type="budget" placeholder="How much I want to spend" />
+                </Form.Group>
+
+                <Button variant="primary" type="submit" onClick={onSubmit}>
+                    Submit
                 </Button>
-                </Form>
+            </Form>
             </div>
 
             <div style={{width: '40%', marginLeft: '620px' }}>
