@@ -14,12 +14,6 @@ const Age12 = () => {
 
           <Budget />
 
-      <div className='Stat-box'>
-      <Stats
-      AgeNum="12"
-      JobNm="Placeholder"
-      CurrBalance="Placeholder"/>
-      </div>
 
        </div>
     );

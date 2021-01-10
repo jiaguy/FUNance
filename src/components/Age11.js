@@ -29,8 +29,10 @@ const Age11 = () => {
                 slideImage5={budget_slide5}/>
             </div>
             <Budget/>
+            <div className='Slide-deck'>
             <ModalBox
             NextPage={"/age12"}/>
+            </div>
        </div>
     );
 }
