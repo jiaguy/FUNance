@@ -12,7 +12,7 @@ function Budget() {
 
         <div className="Budget" style={{textAlign: 'center', width: '100%', overflow: 'hidden'}}>
             <div style={{ width: '40%', float: 'left' }}>
-                <<br></br>
+
             <h1>My Monthly Earnings Calculator</h1>
 
             <Form>
