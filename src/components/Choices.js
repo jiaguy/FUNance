@@ -7,8 +7,8 @@ import CardDeck from 'react-bootstrap/CardDeck';
 
 function Choices(props) {   
         return (
-            <div>
-            
+
+        <div className="Card-deck-div">
             {/* THIS IS HOW WE HIDE AN ENTIRE DIV:
                 <div style={{visibility: props.hideDiv ? 'hidden' : 'visible' }}> */}
             {
