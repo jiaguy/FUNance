@@ -121,7 +121,7 @@
 }
 
 
-.btn-primary:hover, .btn-secondary:hover, .btn-primary:not(:disabled):not(.disabled):focus{ 
+.btn-primary:hover, .btn-secondary:hover, .btn-primary:not(:disabled):not(.disabled):focus, .btn-secondary:not(:disabled):not(.disabled):focus{ 
   color: #EA526F;
   background-color: #fff;
   border-color: #EA526F;
