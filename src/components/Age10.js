@@ -68,7 +68,5 @@ const Age10 = () => {
         </div>
         </div>
     );
-
-
+}
 export default Age10;
-    }
