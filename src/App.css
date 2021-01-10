@@ -164,3 +164,7 @@
   display: flex;
   justify-content: center;
 }
+
+.Stats-dropdown-div {
+  margin-left: calc(270%);
+}

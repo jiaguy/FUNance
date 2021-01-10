@@ -1,8 +1,7 @@
-
-import logotext from '../resources/logotext.svg';
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 // import bootstrap components here
+import Dropdown from 'react-bootstrap/Dropdown'
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Nav from 'react-bootstrap/Nav';
@@ -10,6 +9,7 @@ import Stats from './Stats';
 import CalcModal from './CalcModal';
 
 const Navigation = () => {
+    const [isShown, setIsShown] = useState(false);
 
     return (
         <div>
@@ -24,16 +24,24 @@ const Navigation = () => {
                         <NavDropdown.Item href="/age10">Part 1</NavDropdown.Item>
                         <NavDropdown.Item href="/age11">Part 2</NavDropdown.Item>
                         </NavDropdown>
+                        <div className="Stats-dropdown-div">
+                            <Dropdown>
+                                <Dropdown.Toggle onMouseEnter={() => setIsShown(true)}
+                                    onMouseLeave={() => setIsShown(false)}>
+                                    Stats
+                                {isShown && (
+                                        <Dropdown.Menu>
+                                            <Dropdown.Item><Stats
+                                                Name="Helen"
+                                                JobDesc="Placeholder"
+                                                CurrBalance="Placeholder" /></Dropdown.Item>
+
+                                        </Dropdown.Menu>
+                                    )}
+                                </Dropdown.Toggle>
+                            </Dropdown>
+                        </div>
                     </Nav>
-                    <CalcModal/>
-                    <NavDropdown title="Stats" id="basic-nav-dropdown" style={{ width: '200px' }}>
-                        <NavDropdown.Item>
-                        <Stats
-                            Name="Helen"
-                            JobDesc="Placeholder"
-                            CurrBalance="Placeholder"/>
-                        </NavDropdown.Item>
-                    </NavDropdown>
                 </Navbar.Collapse>
             </Navbar>
         </div>
