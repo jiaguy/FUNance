@@ -100,11 +100,9 @@
   background-color: #444;
 }
 
-.Stat-box {
-  margin-left: 50px;
-  width: 10%;
+#Stats-table, td {
+  padding: 5px;
 }
-
 
 @keyframes App-logo-spin {
   from {

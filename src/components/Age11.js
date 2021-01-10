@@ -30,9 +30,9 @@ const Age11 = () => {
                 slideImage4={budget_slide4}
                 slideImage5={budget_slide5}/>
             </div>
-            <ModalBox
-            NextPage={"/age10"}/>
             <Budget/>
+            <ModalBox
+            NextPage={"/age12"}/>
        </div>
     );
 }
