@@ -38,20 +38,18 @@ const Age10 = () => {
                     earning $10 every walk."/>
 
             <div>
-                {
-                    !hidden ? null :
-                        <div className='Slide-deck'>
-                            <p>Nice! Now that you have a job, it's time to think about where you want to store your money. Then click "Complete" when you're done.</p>
-                            <div className='Slide-deck'>
-                                <ControlledCarousel
-                                    // buttonHandler={() => setHidden(false)}
-                                    slideImage1={bank_slide1}
-                                    slideImage2={bank_slide2}
-                                    slideImage3={bank_slide3}
-                                    slideImage4={bank_slide4}
-                                    slideImage5={bank_slide5} />
-
-
+            {
+            !hidden? null :
+            <div className='Slide-deck'>
+                <p>Nice! Now that you have a job, it's time to think about where you want to store your money. Then click "Complete" when you're done.</p>
+                <div>
+                <ControlledCarousel
+                    // buttonHandler={() => setHidden(false)}
+                    slideImage1={bank_slide1}
+                    slideImage2={bank_slide2}
+                    slideImage3={bank_slide3}
+                    slideImage4={bank_slide4}
+                    slideImage5={bank_slide5}/>
 
                                 <ModalBox
                                     NextPage={"/age11"} />
@@ -66,4 +64,5 @@ const Age10 = () => {
         </div>
     );
 }
+
 export default Age10;
