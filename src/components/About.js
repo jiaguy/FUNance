@@ -25,7 +25,7 @@ const About = () => {
                         <br /><br />
                         <p>To start the journey, please head to "Home".</p>
                         <p>Happy learning!
-                           <div style={{textAlign: 'right'}}>- the Furnance team :)</div>
+                           <div style={{textAlign: 'right'}}>- The FUNance Team :)</div>
                         </p>
 
                      </Card.Text>

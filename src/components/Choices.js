@@ -13,9 +13,13 @@ function Choices(props) {
                 <div style={{visibility: props.hideDiv ? 'hidden' : 'visible' }}> */}
             {
 
-                props.hideDiv ? null :
+                props.hideDiv ? null : <div>
+                <br></br>
+                <br></br>
+                <div>Here's your first major decision! Pick your very first part-time job:</div>
+                <br></br>
+                <br></br>
                 <CardDeck className="Card-deck">
-                
                     <Card id="Card">
                         <Card.Img variant="top" src={props.choiceImage1} width="40%" height="30%" object-fit="cover"/>
                         <Card.Body>
@@ -48,6 +52,7 @@ function Choices(props) {
                     </Card.Body>
                 </Card>
                 </CardDeck>
+                </div>
         }   
         </div>
         );

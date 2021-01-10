@@ -61,6 +61,8 @@
   margin-right: 20px;
   margin-left: 20px;
   margin-bottom: 20px;
+  justify-content: center;
+  margin: auto;
 }
 
 .Card-deck-div {
@@ -175,5 +177,5 @@
 }
 
 .Stats-dropdown-div {
-  margin-left: calc(240%);
+  margin-left: calc(235%);
 }
