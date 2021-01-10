@@ -25,7 +25,7 @@ const home = () => {
             <p>Hit the button below to begin your adventure!</p>
             <div className="mb-2">
                 <Button variant="primary" size="lg" href="/age10">
-                Start
+                start!
                 </Button>{' '}
             </div>    
 

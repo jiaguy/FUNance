@@ -20,13 +20,13 @@ const Age10 = () => {
 
     return (
        <div className='App'>
-            <h1>Age 10</h1>
             <div className='Stat-box'>
                 <Stats
                 AgeNum="10"
                 JobNm="Placeholder"
                 CurrBalance="Placeholder"/>
             </div>
+            <center>
             <div className ='Card-deck-div'>
                 <Choices
                     choiceImage1={lawn_mow}
@@ -42,10 +42,10 @@ const Age10 = () => {
                     choiceImage3={walk_dog}
                     choiceTitle3="Dog Walking" 
                     choiceDesc3="Walk your elderly neighbour's dog three times a week,
-                    earning $10 every walk."/>
+                    earning $10 every walk."/> 
                 <Calculator />
             </div>
-
+            
             <div>
             {
             !hidden? null :
@@ -58,11 +58,14 @@ const Age10 = () => {
                     slideImage3={bank_slide3}
                     slideImage4={bank_slide4}
                     slideImage5={bank_slide5}/>
+
+            <ModalBox
+            NextPage={"/age11"}/>
                 </div>
             }
-                <ModalBox
-            NextPage={"/age11"}/>
+                
             </div>
+            </center>
        </div>
     );
 }

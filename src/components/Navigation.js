@@ -19,12 +19,8 @@ const Navigation = () => {
                     <Nav.Link href="/">Home</Nav.Link>
                     <Nav.Link href="/about">About</Nav.Link>
                     <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="/age10">Age 10</NavDropdown.Item>
-                        <NavDropdown.Item href="/age11">Age 11</NavDropdown.Item>
-                        <NavDropdown.Item href="/age12">Age 12</NavDropdown.Item>
-                        <NavDropdown.Item href="/age13">Age 13</NavDropdown.Item>
-                        <NavDropdown.Item href="/age14">Age 14</NavDropdown.Item>
-                        <NavDropdown.Item href="/age15">Age 15</NavDropdown.Item>
+                        <NavDropdown.Item href="/age10">Part 1</NavDropdown.Item>
+                        <NavDropdown.Item href="/age11">Part 2</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 <Form inline>
