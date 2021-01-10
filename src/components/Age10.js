@@ -21,7 +21,6 @@ const Age10 = () => {
     return (
 
        <div className='App'>
-            <center>
             <div className ='Card-deck-div'>
                 <Choices
                     choiceImage1={lawn_mow}
@@ -40,7 +39,7 @@ const Age10 = () => {
                     earning $10 every walk."/> 
 
             </div>
-            
+        
             <div>
             {
             !hidden? null :
@@ -60,14 +59,16 @@ const Age10 = () => {
             <ModalBox
             NextPage={"/age11"}/>
                 </div>
-            }
+            
                 
 
             </div>
-            </center>
-
-       </div>
+            
+        }
+        </div>
+        </div>
     );
-}
+
 
 export default Age10;
+    }
