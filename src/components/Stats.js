@@ -11,15 +11,15 @@ function Stats(props) {
             </tr>
             <tr>
                 <td>Level:</td>
-                <td>{getLevel()}</td>
+                <td>2</td>
             </tr>
             <tr>
                 <td>Job:</td>
-                <td>{props.JobDesc}</td>
+                <td>Dog Walker</td>
             </tr>
             <tr>
                 <td>Balance:</td>
-                <td>{props.CurrBalance}</td>
+                <td>$65.70</td>
             </tr>
         </table>
     );

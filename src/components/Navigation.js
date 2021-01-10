@@ -25,6 +25,7 @@ const Navigation = () => {
                     <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                         <NavDropdown.Item href="/age10">Part 1</NavDropdown.Item>
                         <NavDropdown.Item href="/age11">Part 2</NavDropdown.Item>
+                        <NavDropdown.Item href="/age12">Part 3</NavDropdown.Item>
                         </NavDropdown>
                         <div className="Stats-dropdown-div">
                             <Dropdown>

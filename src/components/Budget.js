@@ -11,7 +11,7 @@ function Budget() {
     return (
 
         <div className="Budget" style={{textAlign: 'center', width: '100%', overflow: 'hidden', margin: 'auto'}}>
-            <div style={{ width: '30%', float: 'left' }}>
+            <div style={{ width: '40%', float: 'left' }}>
 
             <h2>My Monthly Earnings Calculator</h2>
 
@@ -74,14 +74,14 @@ function Budget() {
                         <td></td>
                     </tr>
                     <tr>
-                        <td>Complete the rest of your budget worksheet</td>
+                        <td>Add other items</td>
                         <td></td>
                         <td></td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td>Total:__________________________</td>
-                        <td>Total:__________________________</td>
+                        <td>Total:_____________</td>
+                        <td>Total:_____________</td>
                     </tr>
                 </tbody>
                 </Table>
