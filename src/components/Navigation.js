@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+
+import logotext from '../resources/logotext.svg';
+import React, {useState} from 'react';
 
 // import bootstrap components here
 import Dropdown from 'react-bootstrap/Dropdown'
