@@ -14,8 +14,9 @@
 }
 
 .App-header {
-  background-color: blue;
-  min-height: 100vh;
+  margin-top: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,6 +43,12 @@
 }
 
 
+.Stat-box {
+  margin-left: 50px;
+  width: 10%;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -49,4 +56,37 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+  
+.result {
+  height: 50px;
+  background-color: #FF8A5B;
+  color: white;
+  width: 100%;
+}
+
+.result p {
+  font-size: 25px;
+  margin: 5px;
+
+}
+
+.calculator-body {
+  width: 200px;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 2px;
+}
+
+.button2 {
+  background-color: #FCEADE;
+  width:50px;
+  border:none;
+  transition-duration: 0.4s;
+}
+
+.button2:hover {
+  background-color: #FF8A5B;
+  color: white;
 }

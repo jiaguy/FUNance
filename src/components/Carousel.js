@@ -47,6 +47,28 @@ function ControlledCarousel(props) {
             <p>{props.slideDesc3}</p>
           </Carousel.Caption>
         </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={props.slideImage4}
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <h3>{props.slideTitle4}</h3>
+            <p>{props.slideDesc4}</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={props.slideImage5}
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <h3>{props.slideTitle5}</h3>
+            <p>{props.slideDesc5}</p>
+          </Carousel.Caption>
+        </Carousel.Item>
       </Carousel>
     );
   }
