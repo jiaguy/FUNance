@@ -7,6 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Nav from 'react-bootstrap/Nav';
 import Stats from './Stats';
+import CalcModal from './CalcModal';
 
 const Navigation = () => {
 
@@ -24,6 +25,7 @@ const Navigation = () => {
                         <NavDropdown.Item href="/age11">Part 2</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
+                    <CalcModal/>
                     <NavDropdown title="Stats" id="basic-nav-dropdown" style={{ width: '200px' }}>
                         <NavDropdown.Item>
                         <Stats

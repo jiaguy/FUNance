@@ -113,14 +113,15 @@
   }
 }
 
-.btn-primary {
+.btn-primary, .btn-secondary {
   color: #fff;
   background-color: #EA526F;
   border-color: #EA526F;
   border-radius:20px;
 }
 
-.btn-primary:hover {
+
+.btn-primary:hover, .btn-secondary:hover {
   color: #EA526F;
   background-color: #fff;
   border-color: #EA526F;

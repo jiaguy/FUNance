@@ -20,6 +20,7 @@ const Age10 = () => {
 
     return (
 
+       <div className='App'>
             <center>
             <div className ='Card-deck-div'>
                 <Choices
@@ -37,13 +38,13 @@ const Age10 = () => {
                     choiceTitle3="Dog Walking" 
                     choiceDesc3="Walk your elderly neighbour's dog three times a week,
                     earning $10 every walk."/> 
-                <Calculator />
+
             </div>
             
             <div>
             {
             !hidden? null :
-            <div>
+            <div className='Slide-deck'>
                 <p>Nice! Now that you have a job, it's time to think about where you want to store your money. Then click "Complete" when you're done.</p>
                 <div className='Slide-deck'>
                 <ControlledCarousel
@@ -53,7 +54,7 @@ const Age10 = () => {
                     slideImage3={bank_slide3}
                     slideImage4={bank_slide4}
                     slideImage5={bank_slide5}/>
-                    </div>
+
 
 
             <ModalBox
@@ -65,6 +66,7 @@ const Age10 = () => {
             </div>
             </center>
 
+       </div>
     );
 }
 
