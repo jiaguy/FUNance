@@ -135,8 +135,7 @@
   color: white;
 }
 
-#complete_button {
-  margin: auto;
-  align-items: center;
+.Modal-div {
+  display: flex;
   justify-content: center;
 }
