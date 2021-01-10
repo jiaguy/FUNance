@@ -1,16 +1,19 @@
-import React, { Component } from 'react';
+import React, {} from 'react';
 
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 
-function Choices(props) { 
+function Choices(props) {   
         return (
-            <div style={{visibility: props.hideDiv ? 'hidden' : 'visible' }}>
+            <div>
+            
+            {/* THIS IS HOW WE HIDE AN ENTIRE DIV:
+                <div style={{visibility: props.hideDiv ? 'hidden' : 'visible' }}> */}
             {
-                // props.hideDiv ? null :  
 
+                props.hideDiv ? null :
                 <CardDeck className="Card-deck">
                 
                     <Card id="Card">

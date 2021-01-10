@@ -73,6 +73,4 @@ function ControlledCarousel(props) {
     );
   }
   
-//   render(<ControlledCarousel />);
-
   export default ControlledCarousel;
