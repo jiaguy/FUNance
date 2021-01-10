@@ -97,3 +97,9 @@
   background-color: #FF8A5B;
   color: white;
 }
+
+#complete_button {
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
