@@ -10,10 +10,10 @@ function onSubmit() {
 function Budget() {
     return (
 
-        <div className="Budget" style={{textAlign: 'center', width: '100%', overflow: 'hidden'}}>
-            <div style={{ width: '40%', float: 'left' }}>
+        <div className="Budget" style={{textAlign: 'center', width: '100%', overflow: 'hidden', margin: 'auto'}}>
+            <div style={{ width: '30%', float: 'left' }}>
 
-            <h1>My Monthly Earnings Calculator</h1>
+            <h2>My Monthly Earnings Calculator</h2>
 
             <Form>
                 <Form.Group controlId="formBasicSalary">
@@ -36,10 +36,9 @@ function Budget() {
                 </Button>
             </Form>
             </div>
-
-            <div style={{width: '40%', marginLeft: '620px' }}>
+            <div style={{width: '30%', marginLeft: '620px' }}>
                 
-                <h1>My Monthly Budget Worksheet</h1>
+                <h2>My Monthly Budget Worksheet</h2>
             <Table striped bordered hover>
                 <thead>
                     <tr>
