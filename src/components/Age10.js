@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import Choices from './Choices';
 import Stats from './Stats';
 
@@ -10,7 +10,24 @@ import walk_dog from '../resources/walk_dog.jpg';
 
 import Calculator from './Calculator';
 
+
+  
+
+
+//   return (
+//     <div>
+//       <p>You clicked {count} times</p>
+//       <button onClick={() => setCount(count + 1)}>
+//         Click me
+//       </button>
+//     </div>
+//   );
+
+
 const Age10 = () => {
+    // Declare a new state variable, which we'll call "count"
+    const [hidden, setHidden] = useState(false);
+
     return (
        <div className='App'>
             <h1>Age 10</h1>
@@ -21,11 +38,13 @@ const Age10 = () => {
                 CurrBalance="Placeholder"/>
             </div>
             <div className ='Card-deck-div'>
-                <Choices
+                <Choices id="choices"
                     choiceImage1={lawn_mow}
                     choiceTitle1="Mow Lawns" 
                     choiceDesc1="You mow your two neighbour's lawns every two weeks 
                     at a rate of $30 per session."
+                    hideDiv={hidden}
+                    buttonHandler={() => setHidden(true)}
                     choice1="mow()"
                     choiceImage2={lemonade_stand}
                     choiceTitle2="Lemonade Stand" 
@@ -41,10 +60,8 @@ const Age10 = () => {
     );
 }
 
-function mow() {
-    document.getElementById("choices").style.display = "none";
-  }
-function myFunction() {
-document.getElementById("demo").style.color = "red";
-}
+// function hideDiv() {
+//     document.getElementById("choices").display = "none"
+// }
+
 export default Age10;
