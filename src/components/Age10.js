@@ -4,8 +4,8 @@ import Choices from './Choices';
 import ControlledCarousel from './Carousel';
 import Stats from './Stats';
 
-import lawn_mow from '../resources/lawn_mow.jpg';
-import lemonade_stand from '../resources/lemonade_stand.jpg';
+import lawn_mow from '../resources/lawn_mow.svg';
+import lemonade_stand from '../resources/lemonade_stand.svg';
 import walk_dog from '../resources/walk_dog.jpg';
 import bank_slide1 from '../resources/bank_slide1.PNG';
 import bank_slide2 from '../resources/bank_slide2.PNG';
@@ -19,13 +19,7 @@ const Age10 = () => {
     const [hidden, setHidden] = useState(false);
 
     return (
-       <div className='App'>
-            <div className='Stat-box'>
-                <Stats
-                AgeNum="10"
-                JobNm="Placeholder"
-                CurrBalance="Placeholder"/>
-            </div>
+
             <center>
             <div className ='Card-deck-div'>
                 <Choices
@@ -51,6 +45,7 @@ const Age10 = () => {
             !hidden? null :
             <div>
                 <p>Nice! Now that you have a job, it's time to think about where you want to store your money. Then click "Complete" when you're done.</p>
+                <div className='Slide-deck'>
                 <ControlledCarousel
                     // buttonHandler={() => setHidden(false)}
                     slideImage1={bank_slide1}
@@ -58,6 +53,7 @@ const Age10 = () => {
                     slideImage3={bank_slide3}
                     slideImage4={bank_slide4}
                     slideImage5={bank_slide5}/>
+                    </div>
 
 
             <ModalBox
@@ -68,7 +64,7 @@ const Age10 = () => {
 
             </div>
             </center>
-       </div>
+
     );
 }
 

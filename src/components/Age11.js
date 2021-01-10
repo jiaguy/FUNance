@@ -16,12 +16,7 @@ import ModalBox from './Modal';
 const Age11 = () => {
     return (
        <div>
-            <div className='Stat-box'>
-                <Stats
-                AgeNum="11"
-                JobNm="Placeholder"
-                CurrBalance="Placeholder"/>
-            </div>
+
             <div className='Slide-deck'>
             <ControlledCarousel
                 slideImage1={budget_slide1}
