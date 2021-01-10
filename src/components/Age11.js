@@ -2,9 +2,11 @@ import React from 'react';
 import ControlledCarousel from './Carousel';
 import Stats from './Stats';
 
-import lawn_mow from '../resources/lawn_mow.jpg';
-import lemonade_stand from '../resources/lemonade_stand.jpg';
-import walk_dog from '../resources/walk_dog.jpg';
+import budget_slide1 from '../resources/budget_slide1.PNG';
+import budget_slide2 from '../resources/budget_slide2.PNG';
+import budget_slide3 from '../resources/budget_slide3.PNG';
+import budget_slide4 from '../resources/budget_slide4.PNG';
+import budget_slide5 from '../resources/budget_slide5.PNG';
 
 
 const Age11 = () => {
@@ -18,15 +20,11 @@ const Age11 = () => {
                 CurrBalance="Placeholder"/>
             </div>
             <ControlledCarousel
-            slideImage1={lawn_mow}
-            slideTitle1="Lesson 1: Saving money"
-            slideDesc1="This is how you save your money!"
-            slideImage2={lemonade_stand}
-            slideTitle2="Lesson 2: Compound interest"
-            slideDesc2="You make money through compounding interest!"
-            slideImage3={walk_dog}
-            slideTitle3="Lesson 3: Start working early"
-            slideDesc3="You need to make as much money as possible!" />
+            slideImage1={budget_slide1}
+            slideImage2={budget_slide2}
+            slideImage3={budget_slide3}
+            slideImage4={budget_slide4}
+            slideImage5={budget_slide5}/>
        </div>
     );
 }
