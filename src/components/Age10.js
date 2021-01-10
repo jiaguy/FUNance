@@ -20,12 +20,6 @@ const Age10 = () => {
 
     return (
        <div className='App'>
-            <div className='Stat-box'>
-                <Stats
-                AgeNum="10"
-                JobNm="Placeholder"
-                CurrBalance="Placeholder"/>
-            </div>
             <center>
             <div className ='Card-deck-div'>
                 <Choices
@@ -43,13 +37,12 @@ const Age10 = () => {
                     choiceTitle3="Dog Walking" 
                     choiceDesc3="Walk your elderly neighbour's dog three times a week,
                     earning $10 every walk."/> 
-                <Calculator />
             </div>
             
             <div>
             {
             !hidden? null :
-            <div>
+            <div className='Slide-deck'>
                 <p>Nice! Now that you have a job, it's time to think about where you want to store your money. Then click "Complete" when you're done.</p>
                 <ControlledCarousel
                     // buttonHandler={() => setHidden(false)}
