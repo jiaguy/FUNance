@@ -26,12 +26,14 @@ const Age11 = () => {
                 JobNm="Placeholder"
                 CurrBalance="Placeholder"/>
             </div>
+            <div className='Slide-deck'>
             <ControlledCarousel
             slideImage1={budget_slide1}
             slideImage2={budget_slide2}
             slideImage3={budget_slide3}
             slideImage4={budget_slide4}
             slideImage5={budget_slide5}/>
+            </div>
        </div>
     );
 }
