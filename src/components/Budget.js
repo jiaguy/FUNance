@@ -10,7 +10,7 @@ function onSubmit() {
 function Budget() {
     return (
 
-        <div>
+        <div id="Budget">
             <br></br>
             <h1>My Monthly Earnings Calculator</h1>
 

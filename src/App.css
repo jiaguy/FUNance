@@ -29,6 +29,10 @@
   color: #61dafb;
 }
 
+#Budget {
+  width: 50%;
+  margin: auto;
+}
 
 .Card-deck {
   text-align: center;
