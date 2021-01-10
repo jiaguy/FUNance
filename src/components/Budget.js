@@ -38,7 +38,7 @@ function Budget() {
             </div>
 
             <div style={{width: '40%', marginLeft: '620px' }}>
-                <br></br>
+                
                 <h1>My Monthly Budget Worksheet</h1>
             <Table striped bordered hover>
                 <thead>
