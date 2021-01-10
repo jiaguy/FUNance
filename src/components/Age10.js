@@ -45,7 +45,7 @@ const Age10 = () => {
             !hidden? null :
             <div className='Slide-deck'>
                 <p>Nice! Now that you have a job, it's time to think about where you want to store your money. Then click "Complete" when you're done.</p>
-                <div className='Slide-deck'>
+                <div>
                 <ControlledCarousel
                     // buttonHandler={() => setHidden(false)}
                     slideImage1={bank_slide1}
@@ -68,7 +68,6 @@ const Age10 = () => {
         </div>
         </div>
     );
-
+}
 
 export default Age10;
-    }
