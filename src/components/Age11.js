@@ -16,7 +16,6 @@ import ModalBox from './Modal';
 const Age11 = () => {
     return (
        <div>
-            <h1>Age 11</h1>
             <div className='Stat-box'>
                 <Stats
                 AgeNum="11"

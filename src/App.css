@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+
+.container{
+  max-width:800px;
+}
+
 .homescreen {
   max-width:800px;
   text-align:center;
@@ -53,6 +58,7 @@
 .Card-deck-div {
   display: flex;
   justify-content: center;
+  margin: auto;
 }
 
 
@@ -107,10 +113,22 @@
   }
 }
 
+.btn-primary {
+  color: #fff;
+  background-color: #EA526F;
+  border-color: #EA526F;
+  border-radius:20px;
+}
+
+.btn-primary:hover {
+  color: #EA526F;
+  background-color: #fff;
+  border-color: #EA526F;
+}
   
 .result {
   height: 50px;
-  background-color: #FF8A5B;
+  background-color: #EA526F;
   color: white;
   width: 100%;
 }
@@ -126,17 +144,18 @@
   max-width: 400px;
   margin: auto;
   border-radius: 2px;
+  box-shadow: 0 4px 8px 0 rgba(234, 82, 111, 0.2), 0 6px 20px 0 rgba(234, 82, 111, 0.19);
 }
 
 .button2 {
-  background-color: #FCEADE;
+  background-color: #fff;
   width:50px;
   border:none;
   transition-duration: 0.4s;
 }
 
 .button2:hover {
-  background-color: #FF8A5B;
+  background-color: #EA526F;
   color: white;
 }
 
