@@ -1,6 +1,6 @@
 import React from 'react';
 import ControlledCarousel from './Carousel';
-
+import Budget from './Budget'
 import lawn_mow from '../resources/lawn_mow.jpg';
 import lemonade_stand from '../resources/lemonade_stand.jpg';
 import walk_dog from '../resources/walk_dog.jpg';
@@ -9,6 +9,7 @@ import walk_dog from '../resources/walk_dog.jpg';
 const Age11 = () => {
     return (
        <div>
+            <Budget />
             <h1>Age 11</h1>
             <ControlledCarousel
             slideImage1={lawn_mow}
