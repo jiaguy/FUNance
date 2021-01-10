@@ -166,5 +166,9 @@
 }
 
 .Stats-dropdown-div {
-  margin-left: calc(270%);
+  margin-left: calc(240%);
+}
+
+.CalcNav {
+  position: relative;
 }

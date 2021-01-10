@@ -45,6 +45,7 @@ const Navigation = () => {
                         </div>
                     </Nav>
                 </Navbar.Collapse>
+                <CalcModal/>
             </Navbar>
         </div>
     );
