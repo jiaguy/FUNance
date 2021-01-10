@@ -7,12 +7,12 @@ import Stats from './Stats';
 import lawn_mow from '../resources/lawn_mow.jpg';
 import lemonade_stand from '../resources/lemonade_stand.jpg';
 import walk_dog from '../resources/walk_dog.jpg';
-import budget_slide1 from '../resources/budget_slide1.PNG';
-import budget_slide2 from '../resources/budget_slide2.PNG';
-import budget_slide3 from '../resources/budget_slide3.PNG';
-import budget_slide4 from '../resources/budget_slide4.PNG';
-import budget_slide5 from '../resources/budget_slide5.PNG';
-
+import bank_slide1 from '../resources/bank_slide1.PNG';
+import bank_slide2 from '../resources/bank_slide2.PNG';
+import bank_slide3 from '../resources/bank_slide3.PNG';
+import bank_slide4 from '../resources/bank_slide4.PNG';
+import bank_slide5 from '../resources/bank_slide5.png';
+import ModalBox from './Modal';
 
 const Age10 = () => {
     // Declare a new state variable, which we'll call "hidden"
@@ -49,14 +49,19 @@ const Age10 = () => {
             <div>
             {
             !hidden? null :
+            <div>
+                <p>Nice! Now that you have a job, it's time to think about where you want to store your money. Then click "Complete" when you're done.</p>
                 <ControlledCarousel
                     // buttonHandler={() => setHidden(false)}
-                    slideImage1={budget_slide1}
-                    slideImage2={budget_slide2}
-                    slideImage3={budget_slide3}
-                    slideImage4={budget_slide4}
-                    slideImage5={budget_slide5}/>
+                    slideImage1={bank_slide1}
+                    slideImage2={bank_slide2}
+                    slideImage3={bank_slide3}
+                    slideImage4={bank_slide4}
+                    slideImage5={bank_slide5}/>
+                </div>
             }
+                <ModalBox
+            NextPage={"/age11"}/>
             </div>
        </div>
     );
